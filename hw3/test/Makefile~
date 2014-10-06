@@ -1,6 +1,0 @@
-
-program: main.cpp Course.o Course.h Student.h
-	g++ -o program main.cpp Course.o
-
-Courses.o: Course.cpp Course.h
-	g++ -c Courses.cpp
