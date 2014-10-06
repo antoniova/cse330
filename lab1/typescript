@@ -1,0 +1,11 @@
+Script started on Mon 16 Jan 2012 12:05:36 PM PST
+]0;user@user-desktop: ~/Prog/csc330/lab1user@user-desktop:~/Prog/csc330/lab1$ ./lab1 
+infix input: a + b - c
+postfix output: ab+c-
+]0;user@user-desktop: ~/Prog/csc330/lab1user@user-desktop:~/Prog/csc330/lab1$ ./lab1 
+infix input: a + b * c
+postfix output: abc*+
+]0;user@user-desktop: ~/Prog/csc330/lab1user@user-desktop:~/Prog/csc330/lab1$ ./lab1 
+infix input: (a+2) / (5 + d)
+postfix output: a2+5d+/
+]0;user@user-desktop: ~/Prog/csc330/lab1user@user-desktop:~/Prog/csc330/lab1$ exit

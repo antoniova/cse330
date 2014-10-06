@@ -1,0 +1,51 @@
+/************************
+Antonio Gonzalez, Homework 1.
+This program calculates the variance for a 
+given array of n elements. The program asks the user to 
+enter the size of the array along with the actual values for each
+element. The array and its size are then passed as parameters to the
+'variance' function; which calculates the actual result.
+
+**************************/
+#include <iostream>
+using namespace std;
+
+double variance( double d[], int size )
+{
+  double var = 0;
+  double average = 0;
+
+  for( int i = 0; i < size; i++ ) //add all elements 
+      average += d[i];
+
+  average = average / size; //divide by size of array to get average.
+
+  for( int i = 0; i < size; i++ )
+      var += (( d[i] - average ) * ( d[i] - average ));
+
+  return  var / (size - 1);
+}
+
+int main()
+{
+  int value;
+  int n = 0;
+  double dArray[50];
+
+  cout << "Enter values for each element in the array: " << endl;
+  cin >> value;
+  while( !cin.eof() ){
+      dArray[n] = value;
+      n++;
+      cin >> value;
+  }
+  
+
+
+  for( int i = 0; i < n ; i++ )//fill all the elements in the array.
+      cin >> dArray[i];
+        
+  cout << "Variance is: " << variance( dArray, n ) << endl;
+  cout << "number of elements: " << n << endl;
+  return 0;
+}

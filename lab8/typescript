@@ -1,0 +1,10 @@
+Script started on Sun 11 Mar 2012 08:17:46 PM PDT
+.]0;user@user-desktop: ~/Prog/csc330/lab8user@user-desktop:~/Prog/csc330/lab8$ ./set_test 
+hello
+All tests passed.
+]0;user@user-desktop: ~/Prog/csc330/lab8user@user-desktop:~/Prog/csc330/lab8$ ./set_test 
+hello
+All tests passed.
+]0;user@user-desktop: ~/Prog/csc330/lab8user@user-desktop:~/Prog/csc330/lab8$ exit
+
+Script done on Sun 11 Mar 2012 08:17:52 PM PDT

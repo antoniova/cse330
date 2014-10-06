@@ -1,0 +1,21 @@
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select <[K> output
+typescript:user	0m0.024s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+typescript:user	0m0.076s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+typescript:user	0m0.180s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+typescript:user	0m0.320s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+typescript:user	0m0.496s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+typescript:user	0m0.720s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+typescript:user	0m0.968s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+typescript:user	0m1.264s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+typescript:user	0m1.592s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+typescript:user	0m1.968s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ exit

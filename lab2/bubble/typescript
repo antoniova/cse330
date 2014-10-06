@@ -1,0 +1,64 @@
+Script started on Sun 22 Jan 2012 05:43:28 PM PST
+]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+1000
+
+real	0m2.524s
+user	0m0.020s
+sys	0m0.000s
+]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+2000
+
+real	0m2.104s
+user	0m0.068s
+sys	0m0.004s
+]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+3000
+
+real	0m2.761s
+user	0m0.148s
+sys	0m0.008s
+]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+4000
+
+real	0m2.801s
+user	0m0.260s
+sys	0m0.012s
+]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+5000
+
+real	0m3.336s
+user	0m0.416s
+sys	0m0.008s
+]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+6000
+
+real	0m3.126s
+user	0m0.588s
+sys	0m0.016s
+]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+7000
+
+real	0m3.047s
+user	0m0.800s
+sys	0m0.028s
+]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+8000
+
+real	0m3.668s
+user	0m1.052s
+sys	0m0.016s
+]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+9000
+
+real	0m4.067s
+user	0m1.316s
+sys	0m0.032s
+]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+10000
+
+real	0m5.299s
+user	0m1.628s
+sys	0m0.028s
+]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ exit
+
+Script done on Sun 22 Jan 2012 05:44:37 PM PST

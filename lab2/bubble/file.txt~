@@ -1,0 +1,23 @@
+bubble.cpp:  cin >> n;    //prompt user for number of elements in the vector
+bubble.cpp~:  cin >> n;    //prompt user for number of elements in the vector
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+typescript:user	0m0.020s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+typescript:user	0m0.068s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+typescript:user	0m0.148s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+typescript:user	0m0.260s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+typescript:user	0m0.416s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+typescript:user	0m0.588s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+typescript:user	0m0.800s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+typescript:user	0m1.052s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+typescript:user	0m1.316s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ time ./bubble > output 
+typescript:user	0m1.628s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/bubbleuser@user-desktop:~/Prog/csc330/lab2/bubble$ exit

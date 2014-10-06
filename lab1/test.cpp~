@@ -1,0 +1,61 @@
+#include <iostream>
+#include <stack>
+using namespace std;
+
+int precedence( char x )
+{
+  if ( x == '(' )
+    return  0;
+  else if( x == '+' || x == '-' )
+    return 1;
+  else if( x == '*' || x == '/' )
+    return 2;
+}
+
+int main()
+{
+    char input;
+    stack<char> s;
+
+    cout << "infix input: " ;  
+    cin >> input;
+    cout << "postfix output: " ;
+    while( !cin.eof() ){
+        if( (input >= 'a' && input <= 'z') || (input >= 'A' && input <= 'Z') )
+            cout << input;
+        else{
+	    if ( input == '(' )
+	        s.push( input );
+	    else if ( input == ')' ){
+	        while ( !s.empty() && s.top() != '(' ){
+  		    cout << s.top();
+		    s.pop();
+		}
+		
+		if ( !s.empty() )
+		    s.pop();
+		else{
+		    cout << "Error. No matching parenthesis" << endl;
+		    return -1;
+		}
+	    }else if ( s.empty() || (precedence( s.top()) < precedence( input )) )
+	        s.push( input );
+	    else if ( precedence(s.top()) >= precedence(input) ){
+	        cout << s.top();
+		s.pop();
+	    }else{
+	        cout << "Check for errors" << endl;
+		return -1;
+	    }
+	}
+	cin >> input;
+    }
+
+    while( !s.empty() ){
+        cout << s.top();
+        s.pop();
+    }
+    cout << endl;
+    return 0;
+}
+  

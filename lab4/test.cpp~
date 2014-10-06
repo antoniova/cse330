@@ -1,0 +1,23 @@
+#include <iostream>
+#include "Vector.h"
+using namespace std;
+
+
+int main()
+{
+  Vector<int> v;
+  Vector<int> s(5);
+  Vector<int> x(10,2);
+
+  cout << "The size of v is: " << v.size() << endl;
+  cout << "The size of s is: " << s.size() << endl;
+  cout << "The size of x is: " << x.size() << endl;
+
+  if( !x.empty() )
+    cout << "x is not empty" << endl;
+  else
+    cout << "x is empty" << endl;
+
+
+  return 0;
+}

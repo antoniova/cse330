@@ -1,0 +1,64 @@
+Script started on Sun 22 Jan 2012 05:36:02 PM PST
+]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select <[K> output
+1000
+
+real	0m3.440s
+user	0m0.024s
+sys	0m0.000s
+]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+2000
+
+real	0m3.494s
+user	0m0.076s
+sys	0m0.008s
+]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+3000
+
+real	0m2.613s
+user	0m0.180s
+sys	0m0.008s
+]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+4000
+
+real	0m2.591s
+user	0m0.320s
+sys	0m0.008s
+]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+5000
+
+real	0m3.803s
+user	0m0.496s
+sys	0m0.012s
+]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+6000
+
+real	0m4.578s
+user	0m0.720s
+sys	0m0.008s
+]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+7000
+
+real	0m3.128s
+user	0m0.968s
+sys	0m0.016s
+]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+8000
+
+real	0m3.713s
+user	0m1.264s
+sys	0m0.024s
+]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+9000
+
+real	0m4.504s
+user	0m1.592s
+sys	0m0.024s
+]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ time ./select > output
+10000
+
+real	0m4.988s
+user	0m1.968s
+sys	0m0.028s
+]0;user@user-desktop: ~/Prog/csc330/lab2user@user-desktop:~/Prog/csc330/lab2$ exit
+
+Script done on Sun 22 Jan 2012 05:37:12 PM PST

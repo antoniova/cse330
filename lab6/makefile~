@@ -1,0 +1,2 @@
+a.out : queue_test.cpp 
+	g++ queue_test.cpp

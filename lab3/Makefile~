@@ -1,0 +1,9 @@
+
+program: main.o String.o
+	g++ -o program main.o String.o
+
+main.o: String_test.cpp
+	g++ -c String_test.cpp
+
+String.o: String.cpp
+	g++ -c String.cpp

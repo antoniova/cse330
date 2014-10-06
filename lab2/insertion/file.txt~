@@ -1,0 +1,22 @@
+insertion.cpp~:the user. The vector is then sorted using the insertion 
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/insertionuser@user-desktop:~/Prog/csc330/lab2/insertion$ time ./insertion > output
+typescript:user	0m0.004s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/insertionuser@user-desktop:~/Prog/csc330/lab2/insertion$ time ./insertion > output
+typescript:user	0m0.020s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/insertionuser@user-desktop:~/Prog/csc330/lab2/insertion$ time ./insertion > output
+typescript:user	0m0.056s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/insertionuser@user-desktop:~/Prog/csc330/lab2/insertion$ time ./insertion > output
+typescript:user	0m0.080s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/insertionuser@user-desktop:~/Prog/csc330/lab2/insertion$ time ./insertion > output
+typescript:user	0m0.128s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/insertionuser@user-desktop:~/Prog/csc330/lab2/insertion$ time ./insertion > output
+typescript:user	0m0.192s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/insertionuser@user-desktop:~/Prog/csc330/lab2/insertion$ time ./insertion > output
+typescript:user	0m0.252s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/insertionuser@user-desktop:~/Prog/csc330/lab2/insertion$ time ./insertion > output
+typescript:user	0m0.328s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/insertionuser@user-desktop:~/Prog/csc330/lab2/insertion$ time ./insertion > output
+typescript:user	0m0.408s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/insertionuser@user-desktop:~/Prog/csc330/lab2/insertion$ time ./insertion > output
+typescript:user	0m0.508s
+typescript:]0;user@user-desktop: ~/Prog/csc330/lab2/insertionuser@user-desktop:~/Prog/csc330/lab2/insertion$ exit
