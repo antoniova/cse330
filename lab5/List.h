@@ -244,10 +244,11 @@ List<T> & List<T>::operator=(const List<T> & l)
   return *this;
 }
 
-/**********************************
+
+/****************************
   Link class
   Used to hold value T
-**********************************/
+*****************************/
 
 template <class T> 
 class Link 
@@ -263,9 +264,13 @@ private:
    friend class List_iterator<T>;
 };
 
+
+
 /******************************
+
   Iterator class.
   Used to traverse and modify lists
+
 ******************************/
 template <class T> 
 class List_iterator{
